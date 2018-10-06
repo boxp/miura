@@ -4,7 +4,7 @@
 (defn modules
   [output-dir]
   {:example {:entries #{"<%name%>.example.container"}
-             :output-to (str output-dir "example.js")
+             :output-to (str output-dir "/example.js")
              :depends-on #{:client}}
    ;; 分割されたモジュールをロードするために最低限必要なモジュール
    ;; モジュールの分割を行うと必ずこのモジュールが分割されるので出力先ファイル名だけ変更している
