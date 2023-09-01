@@ -15,7 +15,7 @@
 
 (defproject <%name%> "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [org.clojure/clojurescript "1.10.339"]
+                 [org.clojure/clojurescript "1.11.121"]
                  [reagent "0.8.1"]
                  [re-frame "0.10.6"]
                  [secretary "1.2.3"]
